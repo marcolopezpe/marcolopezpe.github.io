@@ -1,0 +1,39 @@
+1. Instalar los recursos: js, css, img, etc
+2. Comenzar por el <nav class="navbar"> y sus diferentes estilos en clases, es el contenedor de la parte superior.
+    2.1 brand
+    2.2 button toggler (para response design, oculta el menu total en un icono hamburguesa), este va al lado derecho del menu
+    2.3 listado de menus del navitagion, cada uno es un link
+    2.4 scrollspy (revisarlo)
+3. crear el jumbotron para la parte del header centra, y para que se en texto grande.
+    3.1 crear los texto de diferentes tamaños, con diferentes h1, h2, o etc de acuerdo al diseño.
+    3.2 agregar los botones
+4. Agregar la descripcion, y el titulo mostrando informacion inicial. Aqui inicia el "container".
+5. siguiendo en el container, creamos otro componente que va en el interior de la pagina como informacion, aqui se agregar un objeto iframe, que es un vdieo de youtube, el cual es response, y se adapta a cualquier patnlla aun el video.
+6. creacion del carrusel para muestra de imagen, siguiendo aun dentro del container.
+7. seccion de "features" agregado y siguiendo dentro del containter.
+8. listado de precios. cards dividido en 3 columnas, presentando el producto en diferentes precios.
+9. creacion de los reviews de diferenes usuarios. se crean como bloques de comentarios resaltantes.
+10. suscripcion a boletines via email desde un formulario. este esta fuera del div 'container', es una section que dentro tiene un container. tambien muestra un modal desde la opcion "terminos" para que el usuario pueda leerlo.
+11. Creacion del pie de pagina, donde se mostraran los enlaces relaciones, el siguenes, alguna parte para la navegacion de la pagina. Esto tambien es el footer incial de la pagina. se agrega otra ves los termino y un combo para cambiar el lenguaje.
+12. Se comienza a realizar el agregado de clases como .row y .col-x-x para dar estilo responsivo a la pagina web. se agrega lineas atras y en los que se pueda agregar.
+    12.1 se agrega primero para los 'features'.
+    12.2 seguimos con la seccion de planes
+    12.3 tambien con los reviews
+    12.4 agregamos al forumario de suscripcion
+    12.5 agregamos a los enlaces rapidos
+13. alineando algunos textos en la pagina
+    13.1 alineacion del titulo principal de la pagina o jumbotron. dando color, centrar, y ocultar algunos textos de acuerdo a resolucion. tambien alineando varios titulos de la pagina. agregando margenes en algunos casos como los precios. margen top auto para poner a todos los botones al fin del div (ver botones de precios).
+    13.2 dando color a la cabezeras de los cards.
+    13.3 cambiando el tamaño a algunos bloques en los reviews.
+    13.4 cambiando el color del fondo al formulario de suscripcion y agregando margenes arriba y abajo.
+    13.5 cambiando el color de fondo del footer. agregando margen arriba y abajo de acuerdo a resolucion.
+    13.6 cambiando el tamaño de la letra en el combo lenguaje o idioma.
+14. creando clases css personalizadas.
+    14.1 propiedad para que se muestre el alto completo de la imagen de fondo.
+    14.2 propiedad para que se mantenga la imagen, y de un efecto paralax.
+    14.3 agregando espacios top para los sections
+    14.4 por el efecto anterior, se le quita margen top al formulario.
+15. agregando iconos desde font-awesome.
+    15.1 aumentando el tamaño para el caso de features, dando color y aumentando el margin inferior.
+16. agrendando fuentes desde google fonts
+17. agregando el efecto de bajado lento tipo scroll con la libreria smooth-scroll.js
