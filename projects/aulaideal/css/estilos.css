@@ -1,0 +1,106 @@
+html {
+  font-size: 15px; }
+
+.bienvenidos {
+  background-image: url("../images/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.encabezado .fixed-top {
+  background: rgba(0, 0, 0, 0.6); }
+
+.navbar-brand {
+  padding-top: 1rem;
+  padding-bottom: 1.3rem; }
+
+.navbar-light .navbar-brand {
+  color: #fdfdfd;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.9); }
+
+.navbar-toggler {
+  font-size: 1.6rem !important;
+  color: #fff !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  padding: .7rem;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 0.9);
+  background: #f05f40; }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.9);
+  background: #f05f40; }
+
+#menuPrincipal {
+  clear: both; }
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 9rem; }
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.btn-primary:hover {
+  background-color: #f07357;
+  border-color: #F05F40; }
+
+.quienes-somos {
+  background: #F05F40;
+  color: #fff; }
+
+.servicios .fa-custom {
+  color: #F05F40;
+  font-size: 6rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
+.ultimos-proyectos {
+  background: #424141;
+  color: #fff; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  min-width: 100%; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+
+.footer {
+  color: #fff;
+  background: #222; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  #menuPrincipal {
+    clear: inherit; }
+
+  .bienvenidos {
+    background: url("../images/fondo-bienvenido-grande.jpg");
+    background-size: cover; } }
+
+/*# sourceMappingURL=estilos.css.map */
